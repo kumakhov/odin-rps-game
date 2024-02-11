@@ -26,6 +26,9 @@ function main() {
     cpuChoice = getComputerChoice();
     playerChoice = getPlayerChoice();
 
+    console.log("computer chose: ");
+    console.log(cpuChoice);
+
     if (cpuChoice === getPlayerChoice) {
         console.log("tie!");
     } else {
